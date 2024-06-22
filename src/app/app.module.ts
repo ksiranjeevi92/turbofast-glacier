@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { PasswordGeneratorComponent } from './password-generator/password-generator.component';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent],
+  declarations: [AppComponent, HelloComponent, PasswordGeneratorComponent, CardsComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
