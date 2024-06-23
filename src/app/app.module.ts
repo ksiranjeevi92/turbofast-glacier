@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { PasswordGeneratorComponent } from './password-generator/password-generator.component';
 import { CardsComponent } from './cards/cards.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, PasswordGeneratorComponent, CardsComponent],
+  declarations: [AppComponent, HelloComponent, PasswordGeneratorComponent, CardsComponent, CardComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
